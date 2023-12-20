@@ -5,7 +5,7 @@
 
 # Autonomous Drone Navigation in an Urban Environment
 
-
+https://github.com/hadar-hai/AutonomousDroneNav/assets/64587231/dfffb56c-0a91-4ce1-a438-174521250deb
 
 #### [Hadar Hai](https://www.linkedin.com/in/hadar-hai/), Technion - Israel Institute of Technology
 
@@ -19,6 +19,7 @@ The drone's LIDAR sensor will be utilized to detect obstacles obstructing its fl
 * [How to Use](#how-to-use)
 * [Examples](#examples)
 * [Sources](#sources)
+* [Acknowledgements](#acknowledgements)
 
 ## Requirements
 
@@ -63,17 +64,18 @@ python main.py --start_x -700 --start_y -1100 --end_x -1216 --end_y -372 --heigh
 
 # Examples
 
-We provide here several navigation examples, using different heights and different paths used.
+We provide in the `Examples` directory several navigation examples in video format, using different heights and different paths used, for the following navigation paths:
 
-## Videos
-
-
-
-
-## Navigation Paths
-
-
+![1703086169](https://github.com/hadar-hai/AutonomousDroneNav/assets/64587231/0c732209-68ff-43b4-920e-d802bf17f8c5)
+![1703085626](https://github.com/hadar-hai/AutonomousDroneNav/assets/64587231/6476737c-e57f-49dc-b3f2-b3605d16fcf5)
+![1703085327](https://github.com/hadar-hai/AutonomousDroneNav/assets/64587231/bccfd08b-9d33-4ec2-836b-63b4b436907b)
+![1703085112](https://github.com/hadar-hai/AutonomousDroneNav/assets/64587231/5ecc6400-0814-4407-a565-1b4384197da7)
 
 # Sources
 
 * [Kamon, Ishay, Elon Rimon, and Ehud Rivlin. "Tangentbug: A range-sensor-based navigation algorithm." *The International Journal of Robotics Research* 17, no. 9 (1998): 934-953.](https://csaws.cs.technion.ac.il/~ehudr/publications/pdf/KamonRR98a.pdf)
+
+# Acknowledgements
+
+We thank [Hila Manor](https://www.linkedin.com/in/hilamanor/) for contributing the needed resources for running the project.  
+The project was created as a part of course CS236927 of Computer Science faculty, Technion.
